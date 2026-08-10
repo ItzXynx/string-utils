@@ -1,7 +1,5 @@
 import sys
 
-# various string utilities
-# added more as needed
 
 def reverse(s): return s[::-1]
 def palindrome(s): return s == s[::-1]
@@ -35,3 +33,4 @@ if __name__ == "__main__":
         print(f"unknown op: {op}")
     else:
         print(fn(text))
+# updated
